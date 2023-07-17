@@ -1,0 +1,58 @@
+section {
+    display: flex;
+    gap: 30px;
+    margin: 50px;
+}
+.geometry-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+.geometry{
+    background-color: rgb(246, 193, 193);
+    width: 220px;
+    padding: 50px;
+    border-radius: 5px;
+    text-align: center;
+}
+.geometry img{
+    width: 75%;
+    margin-bottom: 20px;
+}
+.geometry input{
+    width: 25%;
+    border: 0;
+    border-radius: 3px;
+    padding: 8px;
+    margin: 5px;
+}
+.btn-calculate{
+    width: 100%;
+    margin-top: 10px;
+    background-color: rgb(24, 24, 196);
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-weight: 700px;
+    font-size: 20px;
+    color: white;
+   
+}
+.geometry-value{
+    border: 2px solid rgb(183, 110, 15);
+    width: 300px;
+    height: 400px;
+    text-align: center;
+}
+.geometry-value h2{
+    margin-bottom: 30px;
+    text-decoration: underline;
+}
+.geometry-value ol li button{
+    margin-left: 10px;
+    padding: 5px;
+    border: 0;
+    border-radius: 5px;
+    background-color: rgb(23, 4, 42);
+    color: white;
+}
